@@ -33,14 +33,14 @@ const NavBar = () => {
     px-4 text-white bg-gradient-to-b from-blue-200 to-blue-300 fixed"
     >
       <div>
-        <h1 className="text-5xl font-signature ml-2">Kajotem</h1>
+        <h1 className="text-5xl font-signature ml-2 text-black">Kajotem</h1>
       </div>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-white-50
+            className="px-4 cursor-pointer capitalize font-medium text-black
                     hover:scale-105 duration-300">
             {link}
           </li>

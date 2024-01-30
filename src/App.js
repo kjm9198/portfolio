@@ -6,7 +6,6 @@ function App() {
     <div>
       <NavBar />
       <Home />
-      {/*  <BiSolidRightArrow />*/}
     </div>
   );
 }

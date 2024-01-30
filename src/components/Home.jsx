@@ -23,7 +23,7 @@ const Home = () => {
           <div>
             <button
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md
-            bg-gradient-to-b from-blue-500 to-red-400 cursor-pointer"
+            bg-gradient-to-b from-blue-300 to-green-300 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
