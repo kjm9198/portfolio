@@ -5,26 +5,11 @@ const NavBar = () => {
   const [nav, navSet] = useState(false);
 
   const links = [
-    {
-      id: 1,
-      link: "home",
-    },
-    {
-      id: 2,
-      link: "about",
-    },
-    {
-      id: 3,
-      link: "projects",
-    },
-    {
-      id: 4,
-      link: "experience",
-    },
-    {
-      id: 5,
-      link: "contact",
-    },
+    { id: 1, link: "home" },
+    { id: 2, link: "about" },
+    { id: 3, link: "projects" },
+    { id: 4, link: "experience" },
+    { id: 5, link: "contact" },
   ];
 
   return (
