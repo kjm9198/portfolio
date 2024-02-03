@@ -17,7 +17,7 @@ const Home = () => {
             Dedicated third-year student at Polsko-Japońska Akademia Technik
             Komputerowych, specializing in Business Application with a strong
             passion for full-stack development. Enthusiastic about modern web
-            development tech like FastAPI, JavaScript, React, and speed typing.
+            development tech like FastAPI, JavaScript and React.
           </p>
 
           <div>
