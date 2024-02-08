@@ -2,7 +2,7 @@ import React from "react";
 
 function Portfolio() {
     return (
-        <div id="portfolio" className="portfolio">
+        <div id="portfolio" className="h-screen w-full bg-gradient-to-b from-blue-500 to-blue-600">
             <h1>Portfolio</h1>
             <div className="container">
                 <div className="card">
