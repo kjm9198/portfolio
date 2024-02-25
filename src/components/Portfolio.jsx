@@ -35,7 +35,6 @@ function Portfolio() {
         <div className="card">
           <div className="box">
             <img alt="" />
-            <div className="text border-2 border-black p-2">Project 5</div>
           </div>
         </div>
       </div>
