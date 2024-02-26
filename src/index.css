@@ -10,3 +10,48 @@
     }
 
 }
+
+.rounded-full {
+    border-radius: 50%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-64 {
+    width: 16rem;
+}
+
+.h-64 {
+    height: 16rem;
+}
+
+@media (max-width: 1024px) {
+    .w-64 {
+        width: 14rem;
+    }
+    .h-64 {
+        height: 14rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .w-64 {
+        width: 12rem;
+    }
+    .h-64 {
+        height: 12rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .w-64 {
+        width: 10rem;
+        margin-top: 5rem;
+    }
+    .h-64 {
+        height: 10rem;
+    }
+}
