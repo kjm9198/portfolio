@@ -2,26 +2,38 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div name="about" className="w-full h-screen bg-gradient-to-b from-blue-400 to-blue-500 text-white">
+    <div
+      name="about"
+      className="w-full h-screen bg-gradient-to-b from-blue-400 to-blue-500 text-white"
+    >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div>
-
-
-        <p className="text-4xl font-bold inline border-b-4 border-black ">About me</p>
+          <p className="text-4xl font-bold inline border-b-4 border-black ">
+            About me
+          </p>
         </div>
         <p className="text-xl mt-20">
-          Hi! I'm a software engineer and I'm always looking for new
-          opportunities to learn and grow. I'm passionate about building things
-          and solving problems. I'm also a big fan of open source and I love to
-          contribute to projects when I can.
+          Hey there! I'm Michał Bożek, a web developer passionate about crafting
+          digital experiences that bring people together. Since 2022, my focus
+          has been on creating meaningful connections through intuitive and
+          user-friendly web solutions. I believe that the internet is a powerful
+          tool for building communities and fostering collaboration.
         </p>
         <br />
-          <p className="text-xl">
-            I'm currently working at a company called Devs United, where I'm
-            building a platform to help developers find jobs. I'm also working on
-            a few side projects, including a personal website and a few open
-            source projects.
-          </p>
+        <p className="text-xl">
+          One of my recent projects involves designing and developing websites
+          that facilitate seamless online interactions. Through these websites,
+          individuals can connect, share, and engage in a user-friendly
+          environment. This venture showcases my commitment to leveraging web
+          technologies for a positive social impact.
+        </p>
+        <br />
+        <p className="text-xl">
+          Explore my GitHub to discover my latest web development projects,
+          where I combine creativity with coding to build engaging online
+          spaces. Join me on this journey of transforming ideas into captivating
+          digital realities.
+        </p>
       </div>
     </div>
   );

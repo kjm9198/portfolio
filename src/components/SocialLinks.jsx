@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/kjm9198/",
-      style: "rounded-tr-md",
+      style: "rounded-tl-md",
     },
     {
       id: 2,
@@ -42,9 +42,9 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} /> Resume
         </>
       ),
-      href: "",
-      style: "rounded-br-md",
-      // download: true,
+      href: "/Michał Bożek CV.pdf",
+      style: "rounded-bl-md",
+      download: true,
     },
   ];
   return (
@@ -72,3 +72,4 @@ const SocialLinks = () => {
 };
 
 export default SocialLinks;
+
