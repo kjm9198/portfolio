@@ -4,7 +4,7 @@ import SocialLinks from "./components/SocialLinks";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 
-// import { BiSolidRightArrow } from "react-icons/bi";
+import { BiSolidRightArrow } from "react-icons/bi";
 function App() {
   return (
     <div>
