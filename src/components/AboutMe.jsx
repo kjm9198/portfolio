@@ -18,6 +18,7 @@ const AboutMe = () => {
           has been on creating meaningful connections through intuitive and
           user-friendly web solutions. I believe that the internet is a powerful
           tool for building communities and fostering collaboration.
+
         </p>
         <br />
         <p className="text-xl">
