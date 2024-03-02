@@ -1,12 +1,15 @@
 import React from "react";
 import myPicture from "../assets/myPictures2.jpg";
 import { RxArrowRight } from "react-icons/rx";
+import Particle from "./Particle";
 const Home = () => {
   return (
       <div
           name="home"
-          className="h-screen w-full bg-gradient-to-b from-blue-200 via-blue-300 to-blue-400"
+          className="h-screen w-full bg-gradient-to-b from-blue-900 to-blue-950"
       >
+      <Particle />
+
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4">
           <div className="mt-24">
             <img
