@@ -55,3 +55,11 @@
         height: 10rem;
     }
 }
+
+.project-div {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-div:hover {
+    transform: scale(1.1);
+}

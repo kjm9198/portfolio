@@ -17,12 +17,12 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-blue-900">
             Portfolio
           </p>
-          <p className="py-6">Check this out</p>
+          <p className="py-6">Check my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          <div className="shadow-md shadow-blue-900 rounded-lg">
-            <img src={arrayDestruct} alt="arrayDestruct " />
+          <div className="shadow-md shadow-blue-900 rounded-lg project-div">
+            <img src={arrayDestruct} alt="arrayDestruct "/>
             <p>Array Destructuring</p>
           </div>
         </div>
