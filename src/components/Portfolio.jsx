@@ -1,36 +1,42 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import myPortfolio from "../assets/portfolio/Portfolio.webp";
+import houseManagement from "../assets/portfolio/houseManagement.webp";
+import groceryList from "../assets/portfolio/groceryList.webp";
+import snakeGame from "../assets/portfolio/Snake.webp";
+import seniorSocial from "../assets/portfolio/seniorSocial.webp";
+import serverCalculator from "../assets/portfolio/serverCalculator.webp";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: myPortfolio,
+      name: "Portfolio Code",
     },
     {
       id: 2,
-      src: installNode,
+      src: houseManagement,
+      name: "House Management",
     },
     {
       id: 3,
-      src: navbar,
+      src: groceryList,
+      name: "Grocery List",
     },
     {
       id: 4,
-      src: reactParallax,
+      src: snakeGame,
+      name: "Snake Game",
     },
     {
       id: 5,
-      src: reactSmooth,
+      src: seniorSocial,
+      name: "Senior Social",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: serverCalculator,
+      name: "Server Calculator",
     },
   ];
 
@@ -47,22 +53,22 @@ const Portfolio = () => {
           <p className="py-6">Check my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, name }) => (
             <div
               key={id}
               className="shadow-md shadow-blue-900 rounded-lg project-div"
             >
               <img
                 src={src}
-                alt="arrayDestruct "
+                alt="portfolio"
                 className="rounded-md duration-200 hover:scale-100"
               />
-              <div className="flex items-center justify-center ">
-
-                <button className="text-3xl w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+              <div className="flex items-center justify-center">
+                <button className="text-2xl w-full px-6 py-3 m-4 duration-200 hover:scale-105 text-center">
+                  {name}
                 </button>
               </div>
+
             </div>
           ))}
         </div>

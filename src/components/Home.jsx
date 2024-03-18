@@ -1,5 +1,5 @@
 import React from "react";
-import myPicture from "../assets/myPictures2.jpg";
+import myPicture from "../assets/myPictures.jpg";
 import { RxArrowRight } from "react-icons/rx";
 import Particle from "./Particle";
 const Home = () => {
