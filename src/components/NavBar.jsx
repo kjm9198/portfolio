@@ -18,7 +18,7 @@ const NavBar = () => {
     px-4 text-white bg-gradient-to-b from-blue-900 to-blue-950 fixed"
     >
       <div>
-        <h1 className="text-5xl font-signature ml-2 text-black">Kajotem</h1>
+        <h1 className="text-5xl font-signature ml-2 text-black">MB</h1>
       </div>
 
       <ul className="hidden md:flex">
