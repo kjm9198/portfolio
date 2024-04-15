@@ -42,7 +42,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} /> Resume
         </>
       ),
-      href: "/Michał Bożek CV.pdf",
+      href: "/Michał Bożek CV (EN).pdf",
       style: "rounded-bl-md",
       download: true,
     },
