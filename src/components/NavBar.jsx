@@ -20,15 +20,15 @@ const NavBar = () => {
     px-4 text-white bg-gradient-to-b from-blue-900 to-blue-950 fixed"
     >
       <div>
-        <h1 className="text-5xl font-signature ml-2 text-black">MB</h1>
+        <h1 className="text-5xl font-signature ml-2 text-white">MB</h1>
       </div>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-black
-                    hover:scale-105 duration-300">
+            className="px-4 cursor-pointer capitalize font-medium
+                    hover:scale-105 duration-300 text-white">
             {link}
           </li>
         ))}
@@ -43,7 +43,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-blue-900 to-blue-950  ">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-blue-900 to-blue-950">
           {links.map(({ id, link }) => (
             <li
               key={id}
