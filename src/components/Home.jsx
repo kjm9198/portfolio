@@ -17,6 +17,7 @@ const Home = () => {
                 alt="myself"
                 className="rounded-full mx-auto w-64 h-64 md:w-64 md:h-64"
             />
+
           </div>
           <div className="flex flex-col justify-center h-full text-center">
             <h2 className="text-4xl sm:text-7xl font-bold text-white">
