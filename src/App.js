@@ -3,8 +3,9 @@ import Home from "./components/Home";
 import SocialLinks from "./components/SocialLinks";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
-import { BiSolidRightArrow } from "react-icons/bi";
+
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <AboutMe />
       <Portfolio />
+      <Footer />
       <SocialLinks />
     </div>
   );
