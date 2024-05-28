@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+    darkMode: 'class', // Enable dark mode support
     content: [
         "./src/**/*.{js,jsx,ts,tsx}",
     ],
@@ -9,8 +10,7 @@ module.exports = {
                 'blue': {
                     '950': '#000063',
                 },
-                },
-
+            },
             spacing: {
                 '15': '3.75rem', // 15 * 0.25rem = 3.75rem
                 '25': '6.25rem', // 25 * 0.25rem = 6.25rem
@@ -23,4 +23,3 @@ module.exports = {
     },
     plugins: [],
 }
-

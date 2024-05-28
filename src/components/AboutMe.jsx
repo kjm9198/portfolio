@@ -8,23 +8,38 @@ const AboutMe = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-black ">
+          <p className="text-4xl font-bold inline border-b-4 border-blue-500">
             About me
           </p>
         </div>
-        <p className="text-xl mt-20">
-          Hey there! I'm Michał Bożek, a web developer passionate about crafting
-          digital experiences that bring people together. Since 2022, my focus
-          has been on creating meaningful connections through intuitive and
-          user-friendly web solutions.
-        </p>
-        <br />
-        <br />
-        <p className="text-xl">
-          Explore my GitHub to discover my latest web development projects,
-          where I combine creativity with coding to build engaging online
-          spaces.
-        </p>
+        <div className="mt-8 space-y-4">
+          <p className="text-xl">
+            Hey there! I'm Michał Bożek, a data analyst with a passion for
+            uncovering insights from data and transforming them into actionable
+            strategies. Since transitioning to data analytics in 2023, I've
+            focused on utilizing data-driven approaches to solve complex
+            problems and improve business outcomes.
+          </p>
+          <p className="text-xl">
+            My toolkit includes Python, SQL, and Tableau, which I use to clean,
+            analyze, and visualize data to uncover trends and insights. Recent
+            projects include a customer segmentation analysis for an insurance
+            company and a predictive model for churn reduction in a
+            subscription-based business.
+          </p>
+          <p className="text-xl">
+            I hold certifications in Data Science and Machine Learning from
+            Coursera, and I'm currently pursuing advanced studies in statistical
+            modeling. I'm particularly interested in leveraging machine learning
+            for predictive analytics and exploring big data technologies to
+            handle large datasets efficiently.
+          </p>
+          <p className="text-xl">
+            Explore my GitHub to discover my latest projects where I apply
+            statistical analysis, machine learning, and data visualization to
+            drive decision-making and enhance user experiences.
+          </p>
+        </div>
       </div>
     </div>
   );

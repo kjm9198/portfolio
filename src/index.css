@@ -63,3 +63,46 @@
 .project-div:hover {
     transform: scale(1.1);
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.project-div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.space-y-4 > * + * {
+    margin-top: 1rem;
+}
+
+.border-b-4 {
+    border-bottom-width: 4px;
+}
+
+.border-blue-500 {
+    border-color: #3b82f6;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+

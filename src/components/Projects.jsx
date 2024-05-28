@@ -6,7 +6,7 @@ import snakeGame from "../assets/portfolio/Snake.webp";
 import seniorSocial from "../assets/portfolio/seniorSocial.webp";
 import serverCalculator from "../assets/portfolio/serverCalculator.webp";
 
-const Portfolio = () => {
+const Projects = () => {
   const portfolios = [
     {
       id: 1,
@@ -48,7 +48,8 @@ const Portfolio = () => {
 
   return (
     <div
-      name="portfolio"
+      name="projects"
+      id="projects"
       className="bg-gradient-to-b from-blue-900 to-blue-950 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -56,7 +57,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-blue-900">
             Portfolio
           </p>
-          <p className="py-6">Check my work right here</p>
+          <p className="py-6">Dive into my projects and see what I've been working on.</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, name, href }) => (
@@ -84,4 +85,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

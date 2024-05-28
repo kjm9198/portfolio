@@ -1,4 +1,4 @@
-# Portfolio Website
+# Projects Website
 
 This is a personal portfolio website built using React and TypeScript. It showcases my work, skills, and projects. The website is fully responsive and provides an interactive user experience.
 
@@ -6,7 +6,7 @@ This is a personal portfolio website built using React and TypeScript. It showca
 
 - **React & TypeScript:** Utilizes React framework with TypeScript for a component-driven architecture.
 - **Responsive Design:** Adapts to various screen sizes for optimal viewing on any device.
-- **Portfolio Projects:** A showcase of my most significant work with details and live demos.
+- **Projects Projects:** A showcase of my most significant work with details and live demos.
 - **Contact Form:** Integrated form to allow easy contact.
 - **About Me:** A section that provides personal and professional information.
 - **Linked CV:** Includes a link to my CV for easy access.
